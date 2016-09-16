@@ -13,6 +13,8 @@ function generateFaces(){
         image.setAttribute('src', 'images/smile.png');
         var top = Math.floor((Math.random() * 401));
         var left = Math.floor((Math.random() * 401));
+        image.style.top = top + 'px';
+        image.style.left = left + 'px';
         leftSide.appendChild(image)
     }
 }
