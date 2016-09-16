@@ -16,11 +16,13 @@
 h2{
     font-family: fantasy;
     color: crimson;
+    
 }
 p{
     font-family: sans-serif;
     color: coral;
     margin-bottom: 50px;
+    font-weight: 600
 }
 
 img{
