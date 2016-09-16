@@ -50,6 +50,7 @@ function nextLevel(event){
 function gameOver(){
     alert('Game Over!');
     lastSmile.removeEventListener('click', nextLevel);
+    
     theBody.removeEventListener('click', gameOver);
 }
 
