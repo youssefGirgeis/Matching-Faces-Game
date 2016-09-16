@@ -4,6 +4,7 @@ var numberOfFaces = 3;
 var image;
 var lastSmile;
 var theBody = document.getElementsByTagName('body')[0];
+var score = 0;
 
 
 function generateFaces(){
@@ -42,6 +43,8 @@ function removeFaces(){
 
 function nextLevel(event){
     event.stopPropagation();
+    score += 2;
+    document.getElementsByTagName('span')[0].innerHTML = score;
     numberOfFaces += 2;
     removeFaces();
     generateFaces();

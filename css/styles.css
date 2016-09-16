@@ -21,10 +21,15 @@ h2{
 p{
     font-family: sans-serif;
     color: coral;
-    margin-bottom: 50px;
+    
     font-weight: 600
 }
 
 img{
     position: absolute;
+}
+
+.score{
+    margin-bottom: 50px;
+    color: deepskyblue;
 }
