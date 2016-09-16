@@ -1,0 +1,28 @@
+#left-div{
+    position: absolute;
+}
+            
+#right-div{
+    position: absolute;
+    border-left: 1px solid black;
+    left: 500px;
+}
+            
+.size{
+    width: 500px;
+    height: 500px;
+}
+            
+h2{
+    font-family: fantasy;
+    color: crimson;
+}
+p{
+    font-family: sans-serif;
+    color: coral;
+    margin-bottom: 50px;
+}
+
+img{
+    position: absolute;
+}
